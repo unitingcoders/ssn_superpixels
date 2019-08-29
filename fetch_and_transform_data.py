@@ -8,7 +8,7 @@ Author: Varun Jampani
 
 import numpy as np
 import scipy
-from scipy.misc import fromimage
+# from scipy.misc import fromimage
 from scipy.io import loadmat
 from skimage.color import rgb2lab
 from skimage.util import img_as_float
