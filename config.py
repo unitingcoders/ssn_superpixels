@@ -8,7 +8,7 @@ Author: Varun Jampani
 
 import os
 
-CAFFEDIR = './lib/video_prop_networks/lib/caffe/'
+CAFFEDIR = '/usr/local/lib/python3.6/dist-packages/caffe2'
 DATADIR = './data/BSR/BSDS500/data/'
 LISTDIR = './data/'
 
