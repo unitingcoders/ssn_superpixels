@@ -10,7 +10,7 @@ import numpy as np
 import scipy.io as sio
 import os
 import scipy
-from scipy.misc import fromimage
+# from scipy.misc import fromimage
 from scipy.misc import imsave
 from PIL import Image
 import argparse
@@ -71,7 +71,7 @@ def compute_spixels(data_type, n_spixels, num_steps,
             num_spixels = int(num_spixels_w * num_spixels_h)
             result = net.forward_all(**dinputs)
 
-            given_img = fromimage(Image.open(IMG_FOLDER[data_type] + imgname + '.jpg'))
+            given_img = np.array(Image.open(IMG_FOLDER[data_type] + imgname + '.jpg'))
             spix_index = np.squeeze(net.blobs['new_spix_indices'].data).astype(int)
 
             if enforce_connectivity:
