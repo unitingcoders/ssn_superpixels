@@ -8,7 +8,7 @@ Author: Varun Jampani
 
 import os
 
-CAFFEDIR = '/usr/local/lib/python3.6/dist-packages/caffe2'
+CAFFEDIR = '/usr/lib/python3/dist-packages/caffe'
 DATADIR = './data/BSR/BSDS500/data/'
 LISTDIR = './data/'
 
