@@ -11,7 +11,7 @@ import scipy.io as sio
 import os
 import scipy
 # from scipy.misc import fromimage
-from scipy.misc import imsave
+from imageio import imsave
 from PIL import Image
 import argparse
 
